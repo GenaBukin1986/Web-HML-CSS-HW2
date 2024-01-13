@@ -1,0 +1,93 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.image {
+    border-radius: 10px;
+    transform: scale(1);
+    box-shadow: none;
+    transition: box-shadow 600ms, transform 600ms;
+}
+
+.image:hover {
+    border-radius: 10px;
+    transform: scale(1.05);
+    box-shadow: 15px 15px 5px 10px rgba(212, 25, 25, 0.544);
+    transition: box-shadow 600ms, transform 600ms;
+}
+
+.line {
+    border: none;
+    height: 2px;
+    color: #2e8dcd;
+    background-color: #2e8dcd;
+}
+
+.link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px
+}
+
+.headerH1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.paragrath {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.headerH2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.headerH3 {
+    color: rgb(113, 84, 188);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 60px;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: bisque;
+}
+
+.body_style {
+    font-family: sans-serif;
+}
+
+.headerH4:hover {
+    color: crimson;
+}
